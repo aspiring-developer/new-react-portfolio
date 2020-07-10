@@ -1,0 +1,219 @@
+/* ##### DRAWING SECTION ##### */
+
+.bottomWrapper {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.outerMostFrame {
+  width: 400px;
+  height: 267px;
+  background-color: #c9d6da;
+  border: 5px solid #a8a8a8;
+  border-radius: 20px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.outerMostFrame2 {
+  width: 395px;
+  height: 261px;
+  border: 2px solid #4e5a5d;
+  border-radius: 20px;
+}
+
+.topDot {
+  position: absolute;
+  top: 0;
+  margin-top: -16px;
+  font-size: 2rem;
+  color: #555;
+}
+
+.screenFrame {
+  width: 360px;
+  height: 230px;
+  border: 4px solid #a8a8a8;
+  background-image: url("../images/screen-bg-4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.screenFrameInnerBorder {
+  width: 352px;
+  height: 224px;
+  border: 2px solid #17191a;
+  border-top: 5px solid #17191a;
+  border-bottom: 4px solid #232525;
+}
+
+.screenTopUl {
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.screenTopList {
+  font-size: 0.6rem;
+  display: inline;
+  border-right: 1px solid #acacac;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+  text-transform: capitalize;
+}
+
+.REACT, .MVC, .CRUD, .ORM {
+  display: none;
+}
+
+.screenFrameInnerBorder .screenTopUl .screenTopListActive {
+  color: #ffffff;
+  background-color: #4e5a5d;
+  padding: 0.2rem 0.4rem;
+}
+
+.screenLightStrip {
+  background-color: #c5c5c5;
+  height: 24px;
+}
+
+.urlBarUl {
+  text-align: center;
+}
+
+.urlBarLi {
+  display: inline-block;
+  color: #181818;
+  font-size: 0.5rem;
+  padding: 0.2rem;
+  padding-top: 0;
+}
+
+.icon544 {
+  display: none;
+}
+
+.icon769 {
+  display: none;
+}
+
+.icon1920 {
+  display: none;
+}
+
+.screenLightStrip .urlBarUl .addressField {
+  margin-right: 1;
+  border: 1px solid #9e9e9e;
+  border-radius: 7px;
+  margin-bottom: 0;
+  padding: 0 .4rem;
+  background-color: #ebebeb;
+}
+
+.shivaImage {
+  float: left;
+  width: 73px;
+  height: 97px;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.screenFrameInnerBorder h1 {
+  font-size: 1rem;
+  margin-top: .7rem;
+  color: #d2f5f3;
+  /* text-shadow: #000000 0.1rem 0.3rem 0.3rem; */
+  text-shadow: none;
+}
+
+.screenFrameInnerBorder p {
+  font-size: 0.65rem;
+  margin: 1rem 0;
+  color: #2fc4b2;
+}
+
+.landingButtonsRow {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  margin-top: -20px;
+}
+
+.landingButtonsRow a {
+  color: #fdfdfd;
+}
+
+.landingButtonsRow a:hover {
+  color: #3a0c0c;
+}
+
+.homeButton, .portfolioButton, .contactButton {
+  padding: .5rem;
+  font-size: .8rem;
+  width: 90px;
+  border-radius: 8px;
+  margin: 0;
+  text-align: center;
+}
+
+.homeButton {
+  background-color: #dc3545;
+}
+
+.portfolioButton {
+  background-color: #28a745;
+}
+
+.contactButton {
+  background-color: #007bff;
+}
+
+.homeButton:hover, .portfolioButton:hover, .contactButton:hover {
+  background-color: #ffc107;
+}
+
+.bottomName {
+  position: absolute;
+  bottom: 0;
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  color: #555;
+  font-size: 0.6rem;
+}
+
+.rMark {
+  vertical-align: super;
+  font-size: .4rem;
+  margin-left: -4px;
+}
+
+.baseOuter {
+  width: 537px;
+  height: 15px;
+  margin: 0 auto;
+  background-color: #899295;
+  border-top: 1px solid #fff;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  text-align: center;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.3), 0 0 0 1px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.9);
+}
+
+.baseInner {
+  height: 6px;
+  background-color: #c4c7c6;
+  z-index: 2;
+  box-shadow: 20px 10px 8px rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.baseOuterShadow {
+  margin: 0 auto;
+  height: 8px;
+  margin-top: -6px;
+  background-color: #535353;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0 10px 16px 6px #000000;
+}

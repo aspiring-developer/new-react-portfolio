@@ -1,0 +1,328 @@
+  header {
+    background-image: url("../images/header-bg-1500x200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    margin-bottom: 2rem;
+    opacity: .7;
+  }
+  
+  .nameTitleColumn h1 {
+    text-shadow: #b3b1b1 0.5rem 0.5rem 0.5rem;
+  }
+  
+  .landingBottomBg {
+    background-image: url("../images/bg-image-portfolio-bottom-1500x200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    margin-top: 2.5rem;
+    opacity: .7;
+  }
+  
+  .downArrow, .upArrow {
+    font-size: 3rem;
+    color: #17a2b8;
+  }
+  
+  .downArrow:hover, .upArrow:hover {
+    color: #ffc107;
+  }
+  
+  /* ########## Portfolio Section ########## */
+  
+  .uiThumbWrapper {
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
+  .uiThumbWrapper:hover {
+    opacity: .7;
+  }
+  
+  .webProjectThumbBox {
+    border: 1px solid #8ed6ce;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .appTitle {
+    color: #17a2b8;
+    font-weight: bold;
+  }
+  
+  .appText {
+    color: #666;
+  }
+  
+  #projectUiDisplay, #projectUiDisplay2, #projectUiDisplay3 {
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  #projectUiDisplay object, #projectUiDisplay2 object, #projectUiDisplay3 object {
+    width: 100%;
+    height: 500px;
+  }
+  
+  #projectUiDisplay p {
+    color: #999;
+  }
+  
+  /* ########## Webpage Screenshot Section ########## */
+  
+  .webPageColumn-1, .webPageColumn-2 {
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    color: #646464;
+  }
+  
+  .webPageColumn-1 img, .webPageColumn-2 img {
+    box-shadow: 5px 5px 10px 5px #a5a5a5;
+  }
+  
+  .webPageColumn-1 img:hover, .webPageColumn-2 img:hover {
+    opacity: .7;
+  }
+  
+  .uiDisplayRow3 {
+    border: 1px solid #999;
+  }
+  
+  .npsPara {
+    color: #646464;
+  }
+  
+  .thirdRowThumbWrapper img {
+    padding: 0.2rem;
+    margin: 0.5rem 0.5rem;
+  }
+  
+  .thirdRowThumbWrapper:hover {
+    opacity: .7;
+  }
+  
+  /* ########## About Section ########## */
+  
+  .aboutPara .LinkedInIcon {
+    color: #0e76a8;
+  }
+  
+  .aboutPara .gitHubIcon {
+    color: #4078c0;
+  }
+  
+  .aboutPara .faceBookIcon {
+    color: #3b5998;
+  }
+  
+  .aboutPara .youtubeIcon {
+    color: #bb0000;
+  }
+  
+  .LinkedInIcon:hover, .gitHubIcon:hover, .faceBookIcon:hover, .youtubeIcon:hover {
+    opacity: .8;
+  }
+  
+  #personal-webpage-button, #resume-button {
+    background-color: #f3ebd2;
+    border: 1px solid #b8b9b9;
+    border-radius: 10px;
+    padding: .5rem 0;
+    margin: 0;
+    margin-left: .2rem;
+    outline: 0;
+  }
+  
+  #personal-webpage-button a, #resume-button a {
+    color: #aeaeae;
+  }
+  
+  #personal-webpage-button:hover, #resume-button:hover {
+    background-color: #ffc107;
+  }
+  
+  .footerColumn {
+    background-image: url("../images/footer-bar-1500x200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    margin-top: 2.5rem;
+  }
+  
+  /* ########## MEDIA QUERIES SPECIFIC TO THIS SITE ########## */
+  
+  /* Media >769 | Fonts are set to responsive in reset.css */
+  
+  @media (min-width: 769px) {
+    .outerMostFrame {
+      width: 500px;
+      height: 333.75px;
+    }
+    .outerMostFrame2 {
+      width: 493.75px;
+      height: 326.25px;
+    }
+    .topDot {
+      margin-top: -16px;
+      font-size: 2.2rem;
+    }
+    .screenFrame {
+      width: 450px;
+      height: 287.5px;
+    }
+    .screenFrameInnerBorder {
+      width: 440px;
+      height: 280px;
+    }
+    .screenFrameInnerBorder .welcomeText {
+      margin: 2.5rem 0 1rem 0;
+    }
+    .urlBarLi {
+      font-size: 0.6rem;
+      padding: 0.2rem;
+      padding-top: 0;
+    }
+    .REACT, .MVC {
+      display: inline;
+    }
+    .icon544 {
+      display: inline;
+    }
+    .shivaImage {
+      width: 105px;
+      height: 140px;
+      margin-top: 1rem;
+      margin-right: 1rem;
+    }
+    .screenFrameInnerBorder h1 {
+      margin: 1rem 0;
+    }
+    .screenFrameInnerBorder h4 {
+      padding: 1.1rem;
+    }
+    .screenFrameInnerBorder p {
+      margin-top: 0;
+    }
+    .landingButtonsRow {
+      height: 80px;
+    }
+    .homeButton, .portfolioButton, .contactButton {
+      padding: 0.5rem 0.7rem;
+      width: auto;
+      margin-bottom: .8rem;
+    }
+    .bottomName {
+      margin-bottom: 3px;
+      font-size: .7rem;
+    }
+    .baseOuter {
+      width: 671.25px;
+    }
+    .webPageThumbRow {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Media Query  >= 1200 */
+  
+  @media (min-width: 1200px) {
+    .webPageThumbRow {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Media Query  >= 1920 */
+  
+  @media (min-width: 1920px) {
+    .outerMostFrame {
+      width: 800px;
+      height: 534px;
+    }
+    .outerMostFrame2 {
+      width: 790px;
+      height: 522px;
+    }
+    .topDot {
+      margin-top: -22px;
+      font-size: 3.5rem;
+    }
+    .screenFrame {
+      width: 720px;
+      height: 460px;
+    }
+    .screenFrameInnerBorder {
+      width: 711px;
+      height: 453px;
+    }
+    .screenLightStrip {
+      height: 30px;
+      padding-top: .2rem;
+    }
+    .urlBarUl {
+      text-align: center;
+    }
+    .urlBarLi {
+      font-size: 0.8rem;
+      padding: 0.2rem;
+      padding-top: 0;
+    }
+    .CRUD, .ORM {
+      display: inline;
+    }
+    .icon769 {
+      display: inline;
+    }
+    .icon1920 {
+      display: inline;
+    }
+    .shivaImage {
+      width: 187.50px;
+      height: 250px;
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+    .screenFrameInnerBorder h1 {
+      font-size: 2.3rem;
+      margin-top: 3.5rem;
+    }
+    .screenFrameInnerBorder h4 {
+      font-size: 1.5rem;
+      padding: 2rem;
+    }
+    .screenFrameInnerBorder p {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .thumbRow {
+      height: 100px;
+    }
+    .homeButton, .portfolioButton, .contactButton {
+      padding: 0.7rem 1.7rem;
+      font-size: 1.5rem;
+      width: auto;
+      margin-top: 2rem;
+    }
+    .bottomName {
+      margin-bottom: 5px;
+      font-size: .9rem;
+    }
+    .rMark {
+      vertical-align: super;
+      font-size: .7rem;
+    }
+    .baseOuter {
+      width: 980px;
+      height: 25px;
+    }
+  }
