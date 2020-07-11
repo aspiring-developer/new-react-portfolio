@@ -5,9 +5,15 @@
     background-position: center;
     height: 15vh;
     margin-bottom: 2rem;
-    opacity: .7;
+    /* opacity: .7; */
+    display: flex;
+    justify-content: start;
+   
   }
   
+.navbar ul li{ margin-right: auto;
+}
+
   .nameTitleColumn h1 {
     text-shadow: #b3b1b1 0.5rem 0.5rem 0.5rem;
   }
@@ -150,7 +156,7 @@
   }
   
   .footerColumn {
-    background-image: url("../images/footer-bar-1500x200.jpg");
+    background-image: url("../images/bg-4-1500x200.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
