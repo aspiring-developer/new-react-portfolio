@@ -1,30 +1,34 @@
 import React from 'react';
-import ProjectThumbs from '../components/ProjectThumbs';
+import ProjectThumbs from './ProjectThumbs';
+
+const burger1Github = "https://github.com/ssh1sharma/Burger-1";
+const jobSearchGithub = "https://github.com/ssh1sharma/Job-and-News-Search";
+const burger2Github = "https://github.com/ssh1sharma/Burger-2";
+const burger1Link = "https://burger-app-sh.herokuapp.com/";
+const jobSearchLink = "https://richardkessler.github.io/Job-and-News-Search/";
+const burger2Link = "https://sequelize-burger-app-sh.herokuapp.com/";
 
 export const ProjectTopRow = () => {
   return (
     <>
      <div className="row d-flex justify-content-center align-items-center text-center mx-auto">
          <ProjectThumbs
-        link="https://burger-app-sh.herokuapp.com/"
         image="../../images/burger-mysql-ui-204x175.jpg"
-        projectName="Burger App-1"
+        projectName={<a href={burger1Link}>Burger App-1</a>}
         projectDescription="A MySQL app that lets users virtually create, view, edit, save and delete their favorite burgers."
-        githubLink="Details in GitHub"
+        githubLink={<a href={burger1Github}>Details in GitHub</a>}
       />
          <ProjectThumbs
-        link="https://richardkessler.github.io/Job-and-News-Search/"
         image="../../images/job-news-search-api-ui-204x175.jpg"
-        projectName="Job & Article Search"
+        projectName={<a href={jobSearchLink}>Job & Article Search</a>}
         projectDescription="An app that helps web-dev related job and article search. It was built using two third-party APIs."
-        githubLink="Details in GitHub"
+        githubLink={<a href={jobSearchGithub}>Details in GitHub</a>}
       />
          <ProjectThumbs
-        link="https://sequelize-burger-app-sh.herokuapp.com/"
         image="../../images/burger-sequelize-ui-204x175.jpg"
-        projectName="Burger App-2"
+        projectName={<a href={burger2Link}>Burger App-2</a>}
         projectDescription="A Sequelize app that functions like the Burger-1 on the left, but it was built using ORM technology."
-        githubLink="Details in GitHub"
+        githubLink={<a href={burger2Github}>Details in GitHub</a>}
       />
       </div> 
     </>
