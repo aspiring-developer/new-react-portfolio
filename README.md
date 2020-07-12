@@ -20,7 +20,7 @@
 - HTML5, CSS3, Bootstrap4, Media Query, JavaScript, NodeJS, ReactJS, Git, GitHub, Heroku, Netlify, Photoshop, VS Code Editor 
   
 ### License:
-- No license information available at this time.
+- MIT
 
 ### Contribution:
 - No contribution needed. This is a very personal portfolio website, so use it respectfully.
