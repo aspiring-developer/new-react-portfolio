@@ -1,12 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
 import { Footer } from '../components/Footer';
+import { ContactSocialMediaSection } from '../components/ContactSocialMediaSection';
+import { ContactResumeSection } from '../components/ContactResumeSection';
 
 const Contact = () => {
   return (
     <>
     <Header />
-   <h1 className="text-center text-info text-uppercase mt-2 mb-4"> CONTACT/ABOUT </h1>
+   <h1 className="text-center text-info text-capitalize mt-2 mb-4"> contact/about </h1>
    <hr />
    <div className="col-sm-12 contactColumn-1 text-center">
         <h4 className="text-info py-4"> A little about me: </h4>

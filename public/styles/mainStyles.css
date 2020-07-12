@@ -17,6 +17,14 @@
     text-shadow: #b3b1b1 0.5rem 0.5rem 0.5rem;
   }
 
+  .homeBottom {
+    background-image: url("../images/footer-bar-1500x200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:10vh;
+      }
+
   /* ########## Portfolio Section ########## */
   .uiThumbWrapper {
     padding: 0.5rem 0;

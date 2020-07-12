@@ -4,6 +4,7 @@ import { NameSection } from '../components/NameSection';
 import { DrawingMonitor } from '../components/DrawingMonitor';
 import { DrawingBase } from '../components/DrawingBase';
 import { Footer } from '../components/Footer';
+import { HomeBottom } from '../components/HomeBottom';
 
 
 const Home = () => {
@@ -13,7 +14,9 @@ const Home = () => {
       <NameSection />
      <DrawingMonitor />
      <DrawingBase /> 
+     <br /> <br />
      <Footer />
+     <HomeBottom />
     
 
     </>

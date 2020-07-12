@@ -10,7 +10,7 @@ const Portfolio = (props) => {
     <>
       <Header />
    
-      <h1 className="text-center text-info text-uppercase mt-2 mb-4"> Portfolio </h1>
+      <h1 className="text-center text-info text-capitalize mt-2 mb-4"> Portfolio </h1>
       <hr />
       <ProjectTopRow />
       <hr />
