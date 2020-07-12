@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import { FooterExtraText  } from '../components/FooterExtraText';
 
 export const HomeBottom = () => {
   return (
     <>
-      <div className="col homeBottom"> </div>
+      <div className="col homeBottom">
+      <FooterExtraText />
+       </div>
     </>
   )
 }

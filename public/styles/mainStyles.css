@@ -8,6 +8,14 @@
     display: flex;
     justify-content: start;
   }
+
+  .navbar .navbar-brand {
+   color: #d2f5f3;
+   text-shadow: #9c8434 0.1rem 0.3rem 0.3rem;
+   font-weight: bold;
+   font-size: 2rem;
+    }
+
   .navbar-toggler-icon {
 		font-size: 1.2rem;
 	}
@@ -176,6 +184,12 @@
     color: #c3c3c3;
   }
 
+  .footerExtraText{
+       color: #9e9e9e;
+       text-align: center;
+       font-size: .5rem;
+  }
+  
   /* ########## MEDIA QUERIES SPECIFIC TO THIS SITE ########## */
 
   /* Media >769 | Fonts are set to responsive in reset.css */
