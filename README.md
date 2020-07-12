@@ -17,7 +17,7 @@
 - Web pages in this portfolio have self-explaining links, buttons and info that make it easy to navigate.
 
 ### Technology Used:
-- HTML5, CSS3, Bootstrap4, Media Query, JavaScript, JQuery, NodeJS, ReactJS, Git, GitHub, Heroku, Photoshop, VS Code Editor 
+- HTML5, CSS3, Bootstrap4, Media Query, JavaScript, NodeJS, ReactJS, Git, GitHub, Heroku, Netlify, Photoshop, VS Code Editor 
   
 ### License:
 - No license information available at this time.
