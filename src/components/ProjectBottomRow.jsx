@@ -1,12 +1,12 @@
 import React from 'react';
-import ProjectThumbs from '../components/ProjectThumbs';
+import ProjectThumbs from './ProjectThumbs';
 
-const npsVisitorGithub = "https://github.com/ssh1sharma/Work-Day-Scheduler";
-const employeeDirectoryGithub = "https://github.com/ssh1sharma/Weather-Dashboard";
-const  workoutTrackerGithub = "https://github.com/ssh1sharma/Password-Generator";
-const npsVisitorLink = "https://burger-app-sh.herokuapp.com/";
-const employeeDirectoryLink = "https://ssh1sharma.github.io/Weather-Dashboard/";
-const workoutTrackerLink = "https://ssh1sharma.github.io/Password-Generator/";
+const npsVisitorGithub = "https://github.com/ssh1sharma/Park-Search-and-Blog";
+const employeeDirectoryGithub = "https://github.com/ssh1sharma/React-Employee-Directory";
+const workoutTrackerGithub = "https://github.com/ssh1sharma/Workout-Tracker";
+const npsVisitorLink = "http://parks-and-weather.herokuapp.com/login_new.html";
+const employeeDirectoryLink = "https://employee-directory-react-sh.herokuapp.com/";
+const workoutTrackerLink = "https://workout-tracker-sh.herokuapp.com/";
 
 export const ProjectBottomRow = () => {
   return (
@@ -26,7 +26,7 @@ export const ProjectBottomRow = () => {
         />
         <ProjectThumbs
           image="../../images/workout-tracker-ui-204x175.jpg"
-          projectName={<a href={employeeDirectoryLink}>Workout Tracker</a>}
+          projectName={<a href={workoutTrackerLink}>Workout Tracker</a>}
           projectDescription="A workout tracker app: built using NodeJs, Express, MongoDB with Mongoose Schema."
           githubLink={<a href={workoutTrackerGithub}>Details in GitHub</a>}
         />

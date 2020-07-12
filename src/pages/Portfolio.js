@@ -9,7 +9,8 @@ const Portfolio = (props) => {
   return (
     <>
       <Header />
-      <h1 className="text-center"> Portfolio </h1>
+   
+      <h1 className="text-center text-info text-uppercase mt-2 mb-4"> Portfolio </h1>
       <hr />
       <ProjectTopRow />
       <hr />
