@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
     <Header />
-   <h1 className="text-center text-info text-capitalize mt-2 mb-4"> contact/about </h1>
+   <h1 className="text-center text-info text-capitalize mt-2 mb-4 pageTitle"> contact/about </h1>
    <hr />
    <div className="col-sm-12 contactColumn-1 text-center">
         <h4 className="text-info py-4"> A little about me: </h4>
