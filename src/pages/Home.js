@@ -12,12 +12,12 @@ const Home = () => {
     <>
       <Header />
       <NameSection />
-     <DrawingMonitor />
-     <DrawingBase /> 
-     <br /> <br />
-     <Footer />
-     <HomeBottom />
-    
+      <DrawingMonitor />
+      <DrawingBase />
+      <br /> <br />
+      <Footer />
+      <HomeBottom />
+
 
     </>
   )
