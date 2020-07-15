@@ -7,7 +7,7 @@ export const ContactResumeSection = () => {
       <p className="aboutPara text-center">If you are interested to view some of my works, click the button below. </p>
       <hr className="contactHr" />
       <a href="../../images/Shiva-Resume-Web-Dev.pdf" target="_blank" id="resume-button"> <button type="button" className="btn">Download Resumé</button> </a>
-      <a href="https://ssh1sharma.github.io/" target="_blank" rel="noopener noreferrer" id="personal-webpage-button"> <button type="button" className="btn">Go To My Personal Page</button> </a>
+      <a href="https://personal-react-site.netlify.app/" target="_blank" rel="noopener noreferrer" id="personal-webpage-button"> <button type="button" className="btn">Go To My Personal Page</button> </a>
     </>
   )
 }
