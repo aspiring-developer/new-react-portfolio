@@ -9,7 +9,7 @@ export const ContactSocialMediaSection = () => {
         <a className="LinkedInIcon" href="https://www.linkedin.com/in/shivalal-sharma-298835199/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin fa-2x"></i></a>
         <a className="gitHubIcon" href="https://github.com/ssh1sharma" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github-square fa-2x"></i> </a>
         <a className="faceBookIcon" href="https://www.facebook.com/profile.php?id=100027879254436" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square fa-2x"></i></a>
-        <a className="youtubeIcon" href="https://www.youtube.com/watch?v=AHMx705iG1E&t=8s" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube fa-2x"></i></a>
+        <a className="youtubeIcon pl-1" href="https://www.youtube.com/watch?v=AHMx705iG1E&t=8s" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube fa-2x"></i></a>
       </p>
     </>
   )
