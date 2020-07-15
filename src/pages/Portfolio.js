@@ -4,6 +4,7 @@ import { Footer } from '../components/Footer';
 import { ProjectTopRow } from '../components/ProjectTopRow';
 import { ProjectMiddleRow } from '../components/ProjectMiddleRow';
 import { ProjectBottomRow } from '../components/ProjectBottomRow';
+import { WebThumbWrapper } from '../components/WebThumbWrapper';
 
 const Portfolio = (props) => {
   return (
@@ -17,6 +18,8 @@ const Portfolio = (props) => {
       <ProjectMiddleRow />
       <hr />
       <ProjectBottomRow />
+      <hr />
+      <WebThumbWrapper />
       <Footer />
     </>
   )
