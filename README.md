@@ -16,7 +16,7 @@
 
 ### Installation and Usage:
 
-- No installation required to view this portfolio website because it is already deployed to Heroku or GitHub Pages. Click provided link(s) below.
+- No installation required to view this portfolio because it is already deployed to Heroku or GitHub Pages. Click provided link(s) below.
 - Web pages in this portfolio have self-explaining links, buttons and infos that make it easy to navigate.
 
 ### Technology Used:
